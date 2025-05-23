@@ -1,0 +1,46 @@
+{
+    "intransit_orders": [
+        {
+            "id": "ORD-8000",
+            "estimatedDeliveryTime": "2025-05-22T11:30:00",
+            "deliveryLocation": {
+                "address": "45/A, Nidahas Mawatha",
+                "city": "Kegalle",
+                "district": "Kegalle",
+                "province": "Sabaragamuwa Province",
+                "coordinates": {
+                    "latitude": 6.9619,
+                    "longitude": 79.8826
+                },
+                "geofenceRadius": 100
+            },
+            "cementLoad": {
+                "weight": 40000,
+                "unit": "kg",
+                "type": "INSEE Sanstha"
+            },
+            "status": "IN-TRANSIT",
+            "truckInfo": {
+                "truckNumber": "WP-CAB-1234",
+                "model": "TATA LPK 2518",
+                "capacity": "25000 kg"
+            },
+            "customerInfo": {
+                "name": "Jayalanka Construction Ltd",
+                "contactNumber": "+94-711234567",
+                "orderId": "ORD78901"
+            },
+            "priority": "high"
+        }
+    ],
+    "metadata": {
+        "totalIN-TRANSITTasks": 5,
+        "lastUpdated": "2025-01-29T13:00:00",
+        "totalIN-TRANSITWeight": 75500,
+        "priorityBreakdown": {
+            "high": 3,
+            "medium": 2,
+            "low": 0
+        }
+    }
+}

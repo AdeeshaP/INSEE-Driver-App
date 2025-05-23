@@ -1,0 +1,92 @@
+{
+    "completed_orders": [
+        {
+            "id": "ORD-1008",
+            "estimatedDeliveryTime": "2025-05-18T16:00:00",
+            "deliveryArrivedTime": "2025-05-18T17:00:00",
+            "deliveryLocation": {
+                "address": "345/A, Borupana Rd",
+                "city": "Rathmalana",
+                "district": "Colombo",
+                "coordinates": {
+                    "latitude": 6.9619,
+                    "longitude": 79.8826
+                },
+                "geofenceRadius": 100
+            },
+            "cementLoad": {
+                "weight": 12500,
+                "unit": "kg",
+                "type": "Portland Cement"
+            },
+            "status": "DELIVERED",
+            "customerInfo": {
+                "name": "Sunrise Builders",
+                "contactNumber": "+94-711234567",
+                "orderId": "ORD68341"
+            }
+        },
+        {
+            "id": "ORD-1009",
+            "estimatedDeliveryTime": "2025-05-15T16:00:00",
+            "deliveryArrivedTime": "2025-05-15T16:45:00",
+            "deliveryLocation": {
+                "address": "BOI Zone, Wagawaththa",
+                "city": "Horana",
+                "district": "Kalutara",
+                "coordinates": {
+                    "latitude": 7.2906,
+                    "longitude": 80.6337
+                },
+                "geofenceRadius": 100
+            },
+            "cementLoad": {
+                "weight": 15000,
+                "unit": "kg",
+                "type": "Sanstha Cement"
+            },
+            "status": "DELIVERED",
+            "customerInfo": {
+                "name": "Metro Construction",
+                "contactNumber": "+94-777891234",
+                "orderId": "ORD78902"
+            }
+        },
+        {
+            "id": "ORD-1010",
+            "estimatedDeliveryTime": "2025-05-12T11:00:00",
+            "deliveryArrivedTime": "2025-05-12T15:00:00",
+            "deliveryLocation": {
+                "address": "12, Baddegama Rd,",
+                "city": "Galle",
+                "district": "Southern Province",
+                "coordinates": {
+                    "latitude": 8.5874,
+                    "longitude": 81.2152
+                },
+                "geofenceRadius": 100
+            },
+            "cementLoad": {
+                "weight": 20000,
+                "unit": "kg",
+                "type": "Portland Cement"
+            },
+            "status": "DELIVERED",
+            "customerInfo": {
+                "name": "Southern Developers",
+                "contactNumber": "+94-783456789",
+                "orderId": "ORD78905"
+            }
+        }
+    ],
+    "metadata": {
+        "totalcompletedTasks": 5,
+        "lastUpdated": "2025-01-29T13:00:00",
+        "totalcompletedWeight": 75500,
+        "priorityBreakdown": {
+            "high": 3,
+            "medium": 2,
+            "low": 0
+        }
+    }
+}
