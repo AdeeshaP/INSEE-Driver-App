@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:insee_driver_app/screens/checkin/face-verify-checkin/code_verify.dart';
 
 class OptionsScreen extends StatelessWidget {
   OptionsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -87,7 +87,12 @@ class OptionsScreen extends StatelessWidget {
                               'Verify your entry to the factory premises',
                           color: Colors.red.shade600,
                           onTap: () {
-                           
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => CodeVerificationScreen(),
+                              ),
+                            );
                           },
                         ),
                       ),
@@ -100,9 +105,7 @@ class OptionsScreen extends StatelessWidget {
                           title: 'Enroll',
                           description: 'New registration for factory access',
                           color: Colors.red.shade800,
-                          onTap: () {
-                           
-                          },
+                          onTap: () {},
                         ),
                       ),
                     ],
