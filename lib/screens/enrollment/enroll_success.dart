@@ -64,16 +64,6 @@ class _EnrollSuccessScreenState extends State<EnrollSuccessScreen> {
 
                 SizedBox(height: 25),
 
-                // // Message
-                // Text(
-                //   "Enrollment successful!",
-                //   style: TextStyle(
-                //     fontSize: 24,
-                //     fontWeight: FontWeight.bold,
-                //   ),
-                //   textAlign: TextAlign.center,
-                // ),
-                // SizedBox(height: 16),
 
                 Text(
                   "You have been successfully enrolled to the system and you can access to the system.",
