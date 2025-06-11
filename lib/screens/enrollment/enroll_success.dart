@@ -2,19 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:insee_driver_app/dimensions/responsive.dart';
 
 class EnrollSuccessScreen extends StatefulWidget {
-  // final bool isSuccess;
-  // final String recognitionType;
-  // final VoidCallback onContinue;
-  // final Function(VerificationType) onAlternativeVerification;
   final String driverCode;
 
   const EnrollSuccessScreen({
     Key? key,
-    // required this.isSuccess,
-    // required this.onContinue,
-    // required this.onAlternativeVerification,
     required this.driverCode,
-    // required this.recognitionType,
   }) : super(key: key);
 
   @override
@@ -63,7 +55,6 @@ class _EnrollSuccessScreenState extends State<EnrollSuccessScreen> {
                 ),
 
                 SizedBox(height: 25),
-
 
                 Text(
                   "You have been successfully enrolled to the system and you can access to the system.",

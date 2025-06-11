@@ -26,8 +26,6 @@ class _DriverEnrollmentScreenState extends State<DriverEnrollmentScreen> {
     penColor: Colors.black,
   );
   Uint8List? _signatureImage;
-  // String _signatureFileName = "";
-  // String _signatureBase64 = "";
 
   void _takePicture() async {
     final ImagePicker picker = ImagePicker();
